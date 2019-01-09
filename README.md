@@ -14,7 +14,8 @@ command :
              
              
     if you are using Linux
-          download : https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
-          
-          sudo mv chromedriver.exe /usr/bin
-          python bot.py
+          download and unzip : https://chromedriver.storage.googleapis.com/2.45/chromedriver_linux64.zip
+          move the chromedriver to /usr/bin :
+        
+            sudo mv chromedriver.exe /usr/bin
+            python bot.py
